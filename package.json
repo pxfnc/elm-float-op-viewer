@@ -3,6 +3,10 @@
   "devDependencies": {
     "elm": "^0.19.1-5",
     "elm-format": "^0.8.5",
-    "elm-test": "^0.19.1-revision7"
+    "elm-test": "^0.19.1-revision7",
+    "elm-verify-examples": "^5.0.0"
+  },
+  "scripts": {
+    "test": "elm-verify-examples && elm-test"
   }
 }
